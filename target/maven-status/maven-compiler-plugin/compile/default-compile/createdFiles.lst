@@ -1,1 +1,3 @@
 edu\ntnu\App.class
+edu\ntnu\command\TextCommand.class
+edu\ntnu\command\replace\ReplaceTextCommand.class
