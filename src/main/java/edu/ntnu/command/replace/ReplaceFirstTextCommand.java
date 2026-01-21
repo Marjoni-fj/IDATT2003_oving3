@@ -11,6 +11,9 @@ public class ReplaceFirstTextCommand extends ReplaceTextCommand {
         if (text == null) {
         throw new IllegalArgumentException("Text cannot be null");
         }
+        if (text.isEmpty()) {
+            throw new IllegalArgumentException("Text cannot be empty");
+        }
         return text.replaceFirst(this.getTarget(), this.getReplacement());
         
     }

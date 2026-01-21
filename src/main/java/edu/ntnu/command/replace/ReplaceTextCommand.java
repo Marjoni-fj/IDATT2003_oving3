@@ -22,7 +22,10 @@ public class ReplaceTextCommand implements TextCommand{
     @Override
     public String execute(String text) {
         if (text == null) {
-        throw new IllegalArgumentException("Text cannot be null");
+            throw new IllegalArgumentException("Text cannot be null");
+        }
+        if (text.isEmpty()) {
+            throw new IllegalArgumentException("Text cannot be empty");
         }
         return text.replace(this.getTarget(), this.getReplacement());
         
