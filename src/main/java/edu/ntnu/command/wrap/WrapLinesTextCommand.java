@@ -19,7 +19,9 @@ public class WrapLinesTextCommand extends WrapTextCommand{
         for (String line : lines)  {
             String wrapped = super.execute(line);
             result.append(wrapped);
+            result.append("\n");
             }
+        result.deleteCharAt(result.length() - 1);
         return result.toString();
         }
     }
