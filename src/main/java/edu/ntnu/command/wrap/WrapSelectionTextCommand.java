@@ -17,6 +17,9 @@ public class WrapSelectionTextCommand extends WrapLinesTextCommand {
         if (text == null) {
         throw new IllegalArgumentException("Text cannot be null");
         }
+        if (text.isEmpty()) {
+            throw new IllegalArgumentException("Text cannot be empty");
+        }
         String[] lines = text.split("[\\s]");
         StringBuilder result  = new StringBuilder();
         for (String word : lines) {

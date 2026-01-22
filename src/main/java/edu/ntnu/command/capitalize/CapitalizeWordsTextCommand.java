@@ -7,6 +7,9 @@ public class CapitalizeWordsTextCommand extends CapitalizeTextCommand{
         if (text == null) {
             throw new IllegalArgumentException("Text cannot be null");
             }
+        if (text.isEmpty()) {
+            throw new IllegalArgumentException("Text cannot be empty");
+        }
         String[] words = text.split("[\\s]");
         StringBuilder result = new StringBuilder();
         for (String word : words) {

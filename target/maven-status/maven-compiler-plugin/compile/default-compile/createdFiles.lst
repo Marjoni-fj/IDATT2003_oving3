@@ -1,3 +1,10 @@
+edu\ntnu\command\wrap\WrapLinesTextCommand.class
+edu\ntnu\command\wrap\WrapSelectionTextCommand.class
+edu\ntnu\command\replace\ReplaceFirstTextCommand.class
+edu\ntnu\command\capitalize\CapitalizeTextCommand.class
+edu\ntnu\command\wrap\WrapTextCommand.class
 edu\ntnu\App.class
+edu\ntnu\command\capitalize\CapitalizeSelectionTextCommand.class
+edu\ntnu\command\capitalize\CapitalizeWordsTextCommand.class
 edu\ntnu\command\TextCommand.class
 edu\ntnu\command\replace\ReplaceTextCommand.class

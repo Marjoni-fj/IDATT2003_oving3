@@ -9,6 +9,9 @@ public class CapitalizeTextCommand implements TextCommand {
         if (text == null) {
             throw new IllegalArgumentException("Text cannot be null");
             }
+        if (text.isEmpty()) {
+            throw new IllegalArgumentException("Text cannot be empty");
+        }
         return 
         text.substring(0, 1).toUpperCase() 
         + text.substring(1);
