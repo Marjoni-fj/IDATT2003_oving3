@@ -32,16 +32,16 @@ Source code and tests are clearly separated, and packages are organized by respo
 └── command
 ├── TextCommand.java
 ├── replace
-│ ├── ReplaceTextCommand.java
-│ └── ReplaceFirstTextCommand.java
+│    ├── ReplaceTextCommand.java
+│    └── ReplaceFirstTextCommand.java
 ├── wrap
-│ ├── WrapTextCommand.java
-│ ├── WrapLinesTextCommand.java
-│ └── WrapSelectionTextCommand.java
+│    ├── WrapTextCommand.java
+│    ├── WrapLinesTextCommand.java
+│    └── WrapSelectionTextCommand.java
 └── capitalize
-├── CapitalizeTextCommand.java
-├── CapitalizeWordsTextCommand.java
-└── CapitalizeSelectionTextCommand.java
+   ├── CapitalizeTextCommand.java
+   ├── CapitalizeWordsTextCommand.java
+   └── CapitalizeSelectionTextCommand.java
 </pre>
 [//]: # (TODO: Describe the structure of your project here. How have you used packages in your structure. Where are all sourcefiles stored. Where are all JUnit-test classes stored. etc.)
 
@@ -86,16 +86,16 @@ All unit tests are written using **JUnit 5** and mirror the main package structu
    edu.ntnu
 └── command
 ├── replace
-│ ├── ReplaceTextCommandTest.java
-│ └── ReplaceFirstTextCommandTest.java
+│    ├── ReplaceTextCommandTest.java
+│    └── ReplaceFirstTextCommandTest.java
 ├── wrap
-│ ├── WrapTextCommandTest.java
-│ ├── WrapLinesTextCommandTest.java
-│ └── WrapSelectionTextCommandTest.java
+│    ├── WrapTextCommandTest.java
+│    ├── WrapLinesTextCommandTest.java
+│    └── WrapSelectionTextCommandTest.java
 └── capitalize
-├── CapitalizeTextCommandTest.java
-├── CapitalizeWordsTextCommandTest.java
-└── CapitalizeSelectionTextCommandTest.java
+      ├── CapitalizeTextCommandTest.java
+      ├── CapitalizeWordsTextCommandTest.java
+      └── CapitalizeSelectionTextCommandTest.java
 </pre>
 
 The tests cover:
