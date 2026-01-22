@@ -22,6 +22,14 @@ public class WrapSelectionTextCommandTest {
     }
 
     @Test
+    void testReplaceNoOccurrences() {
+        String input = "hello world";
+        String expected = "hello world";
+        String result = wrappedText.execute(input);
+        assertEquals(expected, result);
+    }
+
+    @Test
     void testEmptyString() {
         assertThrows(IllegalArgumentException.class, () -> wrappedText.execute(""));
     }
