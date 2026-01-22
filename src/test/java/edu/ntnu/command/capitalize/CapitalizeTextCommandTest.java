@@ -15,8 +15,8 @@ public class CapitalizeTextCommandTest {
 
     @Test
     void testCapitalization() {
-        String input = "hello World!";
-        String expected = "Hello World!";
+        String input = "hello world!";
+        String expected = "Hello world!";
         String result = capitalizedText.execute(input);
         assertEquals(expected, result);
     }
