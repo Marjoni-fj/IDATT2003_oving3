@@ -155,13 +155,13 @@ What is the input and output of the program? What is the expected behaviour of t
    
 5. **Run the Application:**
    ### v2.0.0
-   You can now run the UI client to execute a series of text transformations on an example input. The main class App initializes the client and runs a sample pipeline of commands.
+   You can now run the UI client to execute a series of text transformations on an example input. The main class App initializes the client and runs a sample pipeline of commands. 
+   #### Expected behavior:
+   The program prints the original input, then applies a series of commands (replace, wrap, capitalize, etc.) in order, and prints the final transformed text.
+   
    Start the program by running the main class:
     ```bash
    mvn exec:java
-
-   Expected behavior:
-   The program prints the original input, then applies a series of commands (replace, wrap, capitalize, etc.) in order, and prints the final transformed text.
 ---
 ## How to run the tests 🧪
 This project uses JUnit 5 for unit testing. 
