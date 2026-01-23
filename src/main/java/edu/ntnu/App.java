@@ -1,13 +1,12 @@
 package edu.ntnu;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
+public class App {
+    public static void main( String[] args ) {
+        UI ui = new UI();
+        ui.init();
+        ui.start();
+
     }
+
+
 }
