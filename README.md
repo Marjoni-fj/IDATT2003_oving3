@@ -20,6 +20,11 @@ The goal of the project is to demonstrate correct and effective use of:
 
 The project follows the **Command Pattern**, where each text transformation is implemented as a command that operates on a `String`.  
 All commands implement a common interface, allowing them to be used interchangeably
+### v1.0.0
+This version implements inheritance and polymorphism by adding all the classes that implements and inherits `TextCommand`
+### v2.0.0
+This version adds a pipeline feature using the Script class, allowing multiple TextCommands to be combined into a single command. 
+This enables chaining commands, applying multiple transformations in sequence on a string, demonstrating polymorphism and command composition.
 
 ## Project structure 📁
 The project follows the standard Maven directory structure.  
@@ -29,6 +34,7 @@ Source code and tests are clearly separated, and packages are organized by respo
 <pre>
    edu.ntnu
 ├── App.java
+├── UI.java
 └── command
 ├── TextCommand.java
 ├── replace
@@ -148,10 +154,14 @@ What is the input and output of the program? What is the expected behaviour of t
    mvn clean compile
    
 5. **Run the Application:**
-  Start the program by running the main class:
+   ### v2.0.0
+   You can now run the UI client to execute a series of text transformations on an example input. The main class App initializes the client and runs a sample pipeline of commands.
+   Start the program by running the main class:
     ```bash
    mvn exec:java
 
+   Expected behavior:
+   The program prints the original input, then applies a series of commands (replace, wrap, capitalize, etc.) in order, and prints the final transformed text.
 ---
 ## How to run the tests 🧪
 This project uses JUnit 5 for unit testing. 
@@ -188,7 +198,9 @@ Each report includes:
 ## References 🔗
 [//]: # (TODO: Include references here, if any. For example, if you have used code from the course book, include a reference to the chapter.
 Or if you have used code from a website or other source, include a link to the source.)
-References are included in the project report.
+Course textbook and lecture materials
+Maven documentation: https://maven.apache.org/
+JUnit 5: https://junit.org/junit5/
 
 ---
 """
