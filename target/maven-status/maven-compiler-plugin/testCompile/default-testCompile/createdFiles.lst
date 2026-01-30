@@ -1,0 +1,9 @@
+edu\ntnu\command\capitalize\CapitalizeTextCommandTest.class
+edu\ntnu\command\capitalize\CapitalizeSelectionTextCommandTest.class
+edu\ntnu\command\wrap\WrapSelectionTextCommandTest.class
+edu\ntnu\command\wrap\WrapTextCommandTest.class
+edu\ntnu\command\wrap\WrapLinesTextCommandTest.class
+edu\ntnu\command\replace\ReplaceFirstTextCommandTest.class
+edu\ntnu\command\replace\ReplaceTextCommandTest.class
+edu\ntnu\AppTest.class
+edu\ntnu\command\capitalize\CapitalizeWordsTextCommandTest.class
