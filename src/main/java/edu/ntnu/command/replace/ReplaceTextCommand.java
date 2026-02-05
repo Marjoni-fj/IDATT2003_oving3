@@ -2,7 +2,7 @@ package edu.ntnu.command.replace;
 
 import edu.ntnu.command.TextCommand;
 
-public class ReplaceTextCommand implements TextCommand{
+public class ReplaceTextCommand implements TextCommand {
     private final String target;
     private final String replacement;
 
@@ -28,7 +28,7 @@ public class ReplaceTextCommand implements TextCommand{
             throw new IllegalArgumentException("Text cannot be empty");
         }
         return text.replace(this.getTarget(), this.getReplacement());
-        
+
     }
 
 }

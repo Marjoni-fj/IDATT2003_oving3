@@ -2,7 +2,7 @@ package edu.ntnu.command.capitalize;
 
 import edu.ntnu.command.TextCommand;
 
-/**test. */
+/** test. */
 public class CapitalizeTextCommand implements TextCommand {
 
   @Override

@@ -1,12 +1,13 @@
 package edu.ntnu.command;
 
 import java.util.List;
-public class Script implements TextCommand{
+
+public class Script implements TextCommand {
     private final List<TextCommand> textCommands;
 
     public Script(List<TextCommand> textCommands) {
         if (textCommands == null) {
-        throw new IllegalArgumentException("Command list cannot be null");
+            throw new IllegalArgumentException("Command list cannot be null");
         }
         this.textCommands = textCommands;
     }
@@ -17,5 +18,5 @@ public class Script implements TextCommand{
             text = command.execute(text);
         }
         return text;
-    }   
+    }
 }

@@ -6,6 +6,7 @@ public class CapitalizeSelectionTextCommand extends CapitalizeTextCommand {
     public CapitalizeSelectionTextCommand(String selection) {
         this.selection = selection;
     }
+
     public String getSelection() {
         return selection;
     }
@@ -14,7 +15,7 @@ public class CapitalizeSelectionTextCommand extends CapitalizeTextCommand {
     public String execute(String text) {
         if (text == null) {
             throw new IllegalArgumentException("Text cannot be null");
-            }
+        }
         if (text.isEmpty()) {
             throw new IllegalArgumentException("Text cannot be empty");
         }
@@ -25,8 +26,7 @@ public class CapitalizeSelectionTextCommand extends CapitalizeTextCommand {
                 String capitalWord = super.execute(word);
                 result.append(capitalWord);
                 result.append(" ");
-            }
-            else {
+            } else {
                 result.append(word);
                 result.append(" ");
             }

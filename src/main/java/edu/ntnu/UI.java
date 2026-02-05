@@ -13,14 +13,14 @@ import edu.ntnu.command.wrap.WrapTextCommand;
 import java.util.ArrayList;
 import java.util.List;
 
-/**test. */
+/** test. */
 public class UI {
   private TextCommand pipeline;
 
   public UI() {
   }
 
-  /**Javadoc.*/
+  /** Javadoc. */
   public void init() {
     List<TextCommand> commands = new ArrayList<>();
     commands.add(new ReplaceTextCommand("hello", "hi"));
@@ -35,7 +35,7 @@ public class UI {
     pipeline = new Script(commands);
   }
 
-  /**test. */
+  /** test. */
   public void start() {
     String input = "hello world\nthis is a test";
     System.out.println("Before:");

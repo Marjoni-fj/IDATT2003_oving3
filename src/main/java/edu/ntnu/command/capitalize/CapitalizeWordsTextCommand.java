@@ -1,12 +1,12 @@
 package edu.ntnu.command.capitalize;
 
-public class CapitalizeWordsTextCommand extends CapitalizeTextCommand{
+public class CapitalizeWordsTextCommand extends CapitalizeTextCommand {
 
     @Override
     public String execute(String text) {
         if (text == null) {
             throw new IllegalArgumentException("Text cannot be null");
-            }
+        }
         if (text.isEmpty()) {
             throw new IllegalArgumentException("Text cannot be empty");
         }
