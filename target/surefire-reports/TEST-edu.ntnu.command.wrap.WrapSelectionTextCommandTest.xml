@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="NO"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-25\bin"/>
-    <property name="sun.java.command" value="C:\Users\marjo\AppData\Local\Temp\surefire14999482407836430241\surefirebooter-20260130151156063_3.jar C:\Users\marjo\AppData\Local\Temp\surefire14999482407836430241 2026-01-30T15-11-55_902-jvmRun1 surefire-20260130151156063_1tmp surefire_0-20260130151156063_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\marjo\AppData\Local\Temp\surefire5773713633452157093\surefirebooter-20260205123955483_3.jar C:\Users\marjo\AppData\Local\Temp\surefire5773713633452157093 2026-02-05T12-39-55_283-jvmRun1 surefire-20260205123955483_1tmp surefire_0-20260205123955483_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\marjo\Downloads\IDATT2003_oving3\target\test-classes;C:\Users\marjo\Downloads\IDATT2003_oving3\target\classes;C:\Users\marjo\.m2\repository\org\junit\jupiter\junit-jupiter\6.0.1\junit-jupiter-6.0.1.jar;C:\Users\marjo\.m2\repository\org\junit\jupiter\junit-jupiter-api\6.0.1\junit-jupiter-api-6.0.1.jar;C:\Users\marjo\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\marjo\.m2\repository\org\junit\platform\junit-platform-commons\6.0.1\junit-platform-commons-6.0.1.jar;C:\Users\marjo\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\marjo\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\marjo\.m2\repository\org\junit\jupiter\junit-jupiter-params\6.0.1\junit-jupiter-params-6.0.1.jar;C:\Users\marjo\.m2\repository\org\junit\jupiter\junit-jupiter-engine\6.0.1\junit-jupiter-engine-6.0.1.jar;C:\Users\marjo\.m2\repository\org\junit\platform\junit-platform-engine\6.0.1\junit-platform-engine-6.0.1.jar;C:\Users\marjo\.m2\repository\org\openjfx\javafx-controls\25.0.1\javafx-controls-25.0.1.jar;C:\Users\marjo\.m2\repository\org\openjfx\javafx-controls\25.0.1\javafx-controls-25.0.1-win.jar;C:\Users\marjo\.m2\repository\org\openjfx\javafx-graphics\25.0.1\javafx-graphics-25.0.1.jar;C:\Users\marjo\.m2\repository\org\openjfx\javafx-graphics\25.0.1\javafx-graphics-25.0.1-win.jar;C:\Users\marjo\.m2\repository\org\openjfx\javafx-base\25.0.1\javafx-base-25.0.1.jar;C:\Users\marjo\.m2\repository\org\openjfx\javafx-base\25.0.1\javafx-base-25.0.1-win.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\marjo\AppData\Local\Temp\surefire14999482407836430241\surefirebooter-20260130151156063_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\marjo\AppData\Local\Temp\surefire5773713633452157093\surefirebooter-20260205123955483_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="25.0.1+8-LTS-27"/>
@@ -59,8 +59,8 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="69.0"/>
   </properties>
-  <testcase name="testReplaceNoOccurrences" classname="edu.ntnu.command.wrap.WrapSelectionTextCommandTest" time="0.002"/>
+  <testcase name="testReplaceNoOccurrences" classname="edu.ntnu.command.wrap.WrapSelectionTextCommandTest" time="0.001"/>
   <testcase name="testEmptyString" classname="edu.ntnu.command.wrap.WrapSelectionTextCommandTest" time="0.003"/>
-  <testcase name="testNullString" classname="edu.ntnu.command.wrap.WrapSelectionTextCommandTest" time="0.003"/>
-  <testcase name="testWrapWholeTest" classname="edu.ntnu.command.wrap.WrapSelectionTextCommandTest" time="0.001"/>
+  <testcase name="testNullString" classname="edu.ntnu.command.wrap.WrapSelectionTextCommandTest" time="0.001"/>
+  <testcase name="testWrapWholeTest" classname="edu.ntnu.command.wrap.WrapSelectionTextCommandTest" time="0.003"/>
 </testsuite>
