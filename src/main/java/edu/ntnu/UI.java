@@ -13,14 +13,22 @@ import edu.ntnu.command.wrap.WrapTextCommand;
 import java.util.ArrayList;
 import java.util.List;
 
-/** test. */
+/**
+ * Test.
+ */
 public class UI {
   private TextCommand pipeline;
+  private static final String SPLITERATOR = "--------------------------";
 
+  /**
+   * Test.
+   */
   public UI() {
   }
 
-  /** Javadoc. */
+  /**
+   * Javadoc.
+   */
   public void init() {
     List<TextCommand> commands = new ArrayList<>();
     commands.add(new ReplaceTextCommand("hello", "hi"));
@@ -35,13 +43,16 @@ public class UI {
     pipeline = new Script(commands);
   }
 
-  /** test. */
+  /**
+   * Test.
+   */
   public void start() {
     String input = "hello world\nthis is a test";
     System.out.println("Before:");
     System.out.println(input);
-    System.out.println("--------------------------");
+    System.out.println(SPLITERATOR);
     System.out.println("After: ");
     System.out.println(pipeline.execute(input));
+    System.out.println(SPLITERATOR);
   }
 }
