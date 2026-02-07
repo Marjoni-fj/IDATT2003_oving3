@@ -1,11 +1,14 @@
 package edu.ntnu;
 
+/**
+ * Test.
+ */
 public class App {
-    public static void main(String[] args) {
-        UI ui = new UI();
-        ui.init();
-        ui.start();
+  static void main() {
+    UI ui = new UI();
+    ui.init();
+    ui.start();
 
-    }
+  }
 
 }
